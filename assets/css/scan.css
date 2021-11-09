@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #090E11;
+}
+
+nav.navbar {
+    background-color: #1F2C34 !important;
+    z-index: 20;
+    position: relative;
+}
+
+#scan-instruction {
+    background-color: #121B22;
+    color: #808A93;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    z-index: 20;
+    position: relative;
+}
+
+#content-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #090E11 !important;
+}
+
+#camera-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+}
+
+#camera-wrapper video {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.scan-area {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 290px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 10;
+    background: linear-gradient(to right, #10796b 4px, transparent 4px) 0 0, linear-gradient(to right, #10796b 4px, transparent 4px) 0 100%, linear-gradient(to left, #10796b 4px, transparent 4px) 100% 0, linear-gradient(to left, #10796b 4px, transparent 4px) 100% 100%, linear-gradient(to bottom, #10796b 4px, transparent 4px) 0 0, linear-gradient(to bottom, #10796b 4px, transparent 4px) 100% 0, linear-gradient(to top, #10796b 4px, transparent 4px) 0 100%, linear-gradient(to top, #10796b 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    animation: kida 1s linear infinite alternate;
+}
+
+@keyframes kida {
+    0% {
+        filter: brightness(70%);
+    }
+    100% {
+        filter: brightness(300%);
+    }
+}

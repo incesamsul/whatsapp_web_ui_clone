@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #090E11;
+}
+
+.navbar-brand {
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: .2px;
+}
+
+.navbar-brand img {
+    width: 39px;
+    height: 39px;
+    margin-right: 14px;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #00BFA5 !important;
+}
+
+.navbar .container {
+    margin-left: 150px;
+}
+
+#content-wrapper {
+    position: relative;
+}
+
+.hero {
+    background-color: #00BFA5;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.landing-card {
+    color: #4A4A4F !important;
+    width: 82%;
+    margin: auto;
+    padding: 64px 60px 110px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.head-login-text {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.instruction-wrapper li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.help-link {
+    color: #0096A5;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.txt-tetap-masuk {
+    font-size: 14px;
+}
+
+input[type=checkbox] {
+    transform: scale(0.9);
+}
